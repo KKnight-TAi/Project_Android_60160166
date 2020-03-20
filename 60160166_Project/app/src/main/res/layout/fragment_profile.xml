@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".authen">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="733dp"
+        android:background="@drawable/ham15">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iv_profile"
+                android:layout_width="136dp"
+                android:layout_height="122dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="618dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_profile"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="166dp"
+                android:layout_marginTop="49dp"
+                android:layout_marginBottom="660dp"
+                android:text="Name"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/Next"
+                android:layout_width="122dp"
+                android:layout_height="61dp"
+                android:layout_marginStart="59dp"
+                android:layout_marginTop="374dp"
+                android:background="#cd8d7b"
+                android:text="HOME"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/login_button2"
+                android:layout_width="89dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="161dp"
+                android:layout_marginTop="80dp"
+                android:text="logout"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="166dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="693dp"
+                android:text="Welcome"
+                android:textSize="18dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="228dp"
+                android:layout_height="225dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="258dp"
+                android:src="@drawable/ham11"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/COMMENT"
+                android:layout_width="112dp"
+                android:layout_height="65dp"
+                android:layout_marginStart="228dp"
+                android:layout_marginTop="370dp"
+                android:background="#fbc490"
+                android:text="COMMENT"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="226dp"
+                android:layout_height="233dp"
+                android:layout_marginStart="173dp"
+                android:layout_marginTop="250dp"
+                android:src="@drawable/ham9"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="85dp"
+                android:layout_height="78dp"
+                android:layout_marginStart="81dp"
+                android:layout_marginTop="63dp"
+                android:src="@drawable/ham10"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="59dp"
+                android:layout_marginTop="215dp"
+                android:text="มารู้จักวิธีการเลี้ยงแฮมเตอร์กันเถอะ!"
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+
+</LinearLayout>
